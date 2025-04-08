@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background: url(vote2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 10px 50px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 50px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Inter', sans-serif;
+    transition: 0.4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: palevioletred;
+    border-radius: 2px;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+    text-align: center;
+}
+
+.center h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 800px;
+}
+
+.center h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    width: 785px;
+    margin-top: 10px;
+}
+
+.center .buttons {
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: palevioletred;
+    border: 1px solid floralwhite;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.buttons .btn {
+    margin-left: 12px;
+}
+
+.buttons button:hover {
+    background: #010117;
+}
+
+.center h1, .center h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
